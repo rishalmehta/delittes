@@ -4,5 +4,5 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-CMD node switchcase.js
+CMD node delittes.js
 EXPOSE 3000
